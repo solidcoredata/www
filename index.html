@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Solid Core Data</title>
+
+<style>
+* {
+	--bgcolor: #0474ff;
+	--fgcolor: white;
+
+	font-family: sans-serif;
+	font-variant-caps: small-caps;
+}
+body {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	
+	background: var(--bgcolor);
+	color: var(--fgcolor);
+}
+#outerbox {
+	position: absolute;
+	top: 10pt;
+	bottom: 10pt;
+	left: 10pt;
+	right: 10pt;
+	padding: 0;
+	margin: 0;
+	
+	border: 2px solid var(--fgcolor);
+}
+#titleblock {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding: 0;
+	margin: 0;
+	max-width: calc(100vw - 24pt);
+	height: 10vh;
+	
+	display: flex;
+	border-left: 2px solid var(--fgcolor);
+	border-top: 2px solid var(--fgcolor);
+	flex-direction: row;
+}
+#titleblock>.logo {
+	min-width: 100px;
+	border-right: 2px solid var(--fgcolor);
+	padding: 3pt;
+	text-align: center;
+}
+#titleblock>.name {
+	flex: 1;
+	padding: 3pt;
+	text-align: left;
+	min-width: 100pt;
+	width: 30vw;
+	max-width: 200pt;
+}
+#content {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	max-height: calc(90vh - 24pt); /* 2x (10 pt padding + 2pt border) */
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+#content>.item {
+	flex: 1;
+	min-width: 200pt;
+	min-height: 10vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	margin: 20pt;
+	border: 1px solid var(--bgcolor);
+}
+#content>.item:hover {
+	border: 1px dashed var(--fgcolor);
+	cursor: pointer;
+}
+#content>.item:active {
+	border: 1px dashed red;
+	cursor: pointer;
+}
+</style>
+
+<div id="outerbox">
+	<div id="content">
+		<div class="item">
+			<img src="symbols_01.svg">
+			<span>Database Schema Versioning and Migrations</span>
+		</div>
+		<div class="item">
+			<img src="symbols_02.svg">
+			Database Incremental Compatibility
+		</div>
+		<div class="item">
+			<img src="symbols_03.svg">
+			Database Query Compiler
+		</div>
+		<div class="item">
+			<img src="symbols_04.svg">
+			Query Engine Frontend
+		</div>
+	</div>
+	<div id="titleblock">
+		<div class="logo">SCD</div>
+		<table class="name">
+			<tr><td>Solid Core Data
+			<tr><td>2018-10-05
+		</table>
+	</div>
+</div>

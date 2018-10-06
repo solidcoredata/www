@@ -1,0 +1,30 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="132px" height="81px" version="1.1">
+	<g transform="translate(0.5,0.5)">
+		<path d="M 71 16 C 71 -5.33 131 -5.33 131 16 L 131 64 C 131 85.33 71 85.33 71 64 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+		<path d="M 71 16 C 71 32 131 32 131 16" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+		<g transform="translate(96.5,45.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="8" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 10px; white-space: nowrap; overflow-wrap: normal; text-align: center;">
+						<div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">B</div>
+					</div>
+				</foreignObject>
+				<text x="4" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Helvetica">B</text>
+			</switch>
+		</g>
+		<path d="M 0 16 C 0 -5.33 60 -5.33 60 16 L 60 64 C 60 85.33 0 85.33 0 64 Z" fill="#ffffff" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+		<path d="M 0 16 C 0 32 60 32 60 16" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+		<g transform="translate(25.5,45.5)">
+			<switch>
+				<foreignObject style="overflow:visible;" pointer-events="all" width="8" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+					<div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 10px; white-space: nowrap; overflow-wrap: normal; text-align: center;">
+						<div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">A</div>
+					</div>
+				</foreignObject>
+				<text x="4" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Helvetica">A</text>
+			</switch>
+		</g>
+		<path d="M 48 44 L 88 44 M 88 48 L 48 48 M 88 48" fill="none" stroke="#000000" stroke-linejoin="round" stroke-miterlimit="10" pointer-events="none"/>
+	</g>
+</svg>
